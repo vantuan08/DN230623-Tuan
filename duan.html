@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <style>
+        #root {
+            width: 100%;
+            height: 300%;
+
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+        }
+
+        .header {
+            width: 100%;
+            height: 2%;
+            padding-top: 10px;
+            background-color: black;
+
+        }
+
+        .text {
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+            font-size: 90%;
+
+        }
+
+        .header-row {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            background-image: url(https://www.tobi-worldwide.com/cdn/shop/files/Banner_Website_1400x.jpg?v=1688529288);
+            background-size: 1400px 600px;
+
+        }
+
+        .header-row0 {
+            width: 15%;
+            height: 25%;
+            margin-left: 40px;
+            margin-top: 9px;
+            padding-right: 0px;
+        }
+
+        .header-row1 {
+            width: 6%;
+            height: 10%;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .header-row2 {
+            width: 10%;
+            height: 10%;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .header-row3 {
+            width: 10%;
+            height: 10%;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .header-row4 {
+            width: 10%;
+            height: 10%;
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        .header-row5 {
+            width: 10%;
+            height: 10%;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .header-row6 {
+            width: 6%;
+            height: 10%;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .header-row7 {
+            width: 8%;
+            height: 10%;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .header-row8 {
+            width: 11%;
+            height: 10%;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .header-row9 {
+            width: 3%;
+            height: 10%;
+            text-align: center;
+            margin-top: 5px;
+            margin-left: -25px;
+        }
+
+        .main {
+            width: 100%;
+            height: 18%;
+            display: flex;
+        }
+
+        .main-row- {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .sp {
+            font-size: 70%;
+            text-align: center;
+            margin: -55px -80px 10px -102px;
+        }
+
+        .p1 {
+            width: 100%;
+            height: 28%;
+            display: flex;
+
+        }
+
+        .btn-block {
+            display: block;
+            width: 92%;
+            height: 20%;
+            background-color: black;
+            box-sizing: border-box;
+        }
+
+        .btn-block-row {
+            display: block;
+            width: 77%;
+            height: 35%;
+            text-align: center;
+            background-color: black;
+            box-sizing: border-box;
+        }
+
+        .p1-row {
+            width: 20%;
+            height: 38%;
+            margin-top: 100px;
+            margin-left: 8px;
+        }
+
+        .p2 {
+            width: 100%;
+            height: 23%;
+            display: flex;
+        }
+
+        .p2-row {
+            width: 25%;
+            height: 25%;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+        .text-row {
+            font-size: 100%;
+            text-align: center;
+
+        }
+        .sp1 {   
+            font-size: 70%;
+            text-align: center;
+
+        }
+
+        .footer {
+            width: 100%;
+            height: 12%;
+            display: flex;
+            background-color: rgb(233, 226, 215);
+        }
+
+        .footer1 {
+            width: 25%;
+            height: 100%;
+            text-align: center;
+            margin-right: 60px;
+            margin-top: 50px;
+            font-size: 80%;
+        }
+
+        .footer-row {
+            width: 100%;
+            height: 10%;
+            background-color: black;
+            display: flex;
+            padding-top: 38px;
+            padding-left: 80px;
+        }
+
+        .footer-row1 {
+            width: 33%;
+            height: 20%;
+            font-size: 75%;
+            text-align: left;
+        }
+    </style>
+    <div id="root">
+        <div class="header">
+            <div class="text">
+                <p style="color: aliceblue;"><b>07 ngày đổi trả sản phẩm | Miễn phí đổi trả 2 chiều</p>
+            </div>
+        </div>
+        <div class="header-row">
+            <div class="header-row0">
+                <input type="text" placeholder="Tìm kiếm..." />
+            </div>
+            <div class="header-row1">
+                <p><b>SHOP</b></p>
+            </div>
+            <div class="header-row2">
+                <p><b>LOOCKBOOK</b></p>
+            </div>
+            <div class="header-row3">
+                <p><b>COLLECTION</b></p>
+            </div>
+            <div class="header-row4">
+                <img src="https://tobi.vn/cdn/shop/files/tobi_vn_110x.png?v=1690875764">
+            </div>
+            <div class="header-row5">
+                <p><b>STYLE & VIBE</b></p>
+            </div>
+            <div class="header-row6">
+                <p><b>BLOG</b></p>
+            </div>
+            <div class="header-row7">
+                <p><b>ABOUT US</b></p>
+            </div>
+            <div class="header-row8">
+                <a href="dangnhap.html"> <img src="https://cdn-icons-png.flaticon.com/128/2321/2321232.png" alt=""
+                        width="35" height="35"></a>
+            </div>
+            <div class="header-row9">
+                <img src="https://cdn-icons-png.flaticon.com/128/833/833314.png" alt="" width="35" height="35">
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main-row">
+                <img src="https://tobi.vn/cdn/shop/files/Banner_01_f38128d9-2714-49a1-8f23-ab4d4569f9f5_720x.jpg?v=1690774356s"
+                    alt="" width="470" height="355">
+            </div>
+            <div class="main-row">
+                <img src="https://tobi.vn/cdn/shop/files/Banner_02_31fd3cb2-375d-4c05-af43-d0bdfe7b0c44_720x.jpg?v=1690774394"
+                    alt="" width="470" height="355">
+            </div>
+            <div class="main-row">
+                <img src="https://tobi.vn/cdn/shop/files/Banner_03_bb84b435-1fec-443c-9406-1e9578fd13f5_720x.jpg?v=1690774415"
+                    alt="" width="459" height="355">
+            </div>
+        </div>
+        <div class="p1">
+            <div class="p1-row">
+                <img src="https://tobi.vn/cdn/shop/products/tobi-hanoi-souvenir-baby-t-shirt-422478_1800x1800.jpg?v=1690934430"
+                    alt="" width="250" height="250">
+                <button type="button" class="btn btn-secondary btn-lg btn-block">
+                    <p style="color: aliceblue;">Quick view</p>
+                </button>
+                <br>
+                <p>TOBI® HANOI Souvenir Baby T-shirt
+                    380.000₫</p>
+            </div>
+            <div class="p1-row">
+                <img src="https://tobi.vn/cdn/shop/products/tobi-hanoi-souvenir-boxy-t-shirt-401632_1800x1800.jpg?v=1690934431"
+                    alt="" width="250" height="250">
+                <button type="button" class="btn btn-secondary btn-lg btn-block">
+                    <p style="color: aliceblue;">Quick view</p>
+                </button>
+                <br>
+                <p>TOBI HANOI Souvenir Boxy T-shirt
+                    420.000₫</p>
+            </div>
+            <div class="p1-row">
+                <div class="sp">
+                    <h3>SẢN PHẨM MỚI</h3>
+                </div>
+                <img src="https://tobi.vn/cdn/shop/products/tobi-danang-souvenir-boxy-t-shirt-145197_1800x1800.jpg?v=1690934430"
+                    alt="" width="250" height="250">
+                <button type="button" class="btn btn-secondary btn-lg btn-block">
+                    <p style="color: aliceblue;">Quick view</p>
+                </button>
+                <br>
+                <p>TOBI DANANG Souvenir Boxy T-shirt
+                    420.000₫</p>
+            </div>
+            <div class="p1-row">
+                <img src="https://tobi.vn/cdn/shop/products/tobi-danang-souvenir-baby-t-shirt-424192_1800x1800.jpg?v=1690934429"
+                    alt="" width="250" height="250">
+                <button type="button" class="btn btn-secondary btn-lg btn-block">
+                    <p style="color: aliceblue;">Quick view</p>
+                </button>
+                <br>
+                <p>TOBI DANANG Souvenir Boxy T-shirt
+                    420.000₫</p>
+            </div>
+            <div class="p1-row">
+                <img src="https://tobi.vn/cdn/shop/products/waffle-stripped-polo-grude-232607_1800x1800.jpg?v=1689442722"
+                    alt="" width="250" height="250">
+                <button type="button" class="btn btn-secondary btn-lg btn-block">
+                    <p style="color: aliceblue;">Quick view</p>
+                </button>
+                <br>
+                <p>Waffle Stripped Polo - Grude
+                    430.000₫</p>
+            </div>
+        </div>
+        <div class="sp1">
+            <h3>SẢN PHẨM HYPE</h3>
+        </div>
+        <div class="p2">
+            <div class="p2-row">
+                <img src="https://tobi.vn/cdn/shop/products/double-knee-jeans-ss23-black-934867_360x.jpg?v=1680266642"
+                    alt="" width="250" height="250">
+                <div class="btn-block-row">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">
+                        <p style="color: aliceblue;">Quick view</p>
+                    </button>
+                </div>
+                <br>
+                <p>Double Knee Jeans SS23 - Black
+                    790.000₫</p>
+            </div>
+            <div class="p2-row">
+                <img src="https://tobi.vn/cdn/shop/products/double-knee-jeans-ss23-white-805366_360x.jpg?v=1680266643"
+                    alt="" width="250" height="250">
+                <div class="btn-block-row">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">
+                        <p style="color: aliceblue;">Quick view</p>
+                    </button>
+                </div>
+                <br>
+                <p>Double Knee Jeans SS23- White
+                    790.000₫</p>
+            </div>
+            <div class="p2-row">
+                <img src="https://tobi.vn/cdn/shop/products/double-knee-jeans-ss23-vintage-blue-164002_360x.jpg?v=1680266643"
+                    alt="" width="250" height="250">
+                <div class="btn-block-row">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">
+                        <p style="color: aliceblue;">Quick view</p>
+                    </button>
+                </div>
+                <br>
+                <p>Double Knee Jeans SS23 - Vintage Blue
+                    790.000₫</p>
+            </div>
+            <div class="p2-row">
+                <img src="https://tobi.vn/cdn/shop/products/wide-leg-baggy-jeans-blue-dirty-wash-600342_360x.jpg?v=1680266834"
+                    alt="" width="250" height="250">
+                <div class="btn-block-row">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">
+                        <p style="color: aliceblue;">Quick view</p>
+                    </button>
+                </div>
+                <br>
+                <p>Wide Leg Baggy Jeans - Blue Dirty Wash
+                    790.000₫</p>
+            </div>          
+        </div>
+        <div class="text-row">
+           <h5><b>“Thương hiệu do người trẻ nước Việt đảm trách”</b></h5>
+           <img src="https://t3.ftcdn.net/jpg/05/22/90/42/240_F_522904247_sSkOUZF0wiy36coRAWMBqYWNB5JA2Os1.jpg" alt="" width="100" height="100"> 
+           <p>1,865 đánh giá</p>
+          
+            
+        </div>
+        <div class="footer">
+            <div class="footer1">
+                <img src="https://cdn-icons-png.flaticon.com/128/709/709790.png" alt="70" width="70">
+                <p><b>MIỄN PHÍ VẬN CHUYỂN</b></p>
+                <p>Đối với đơn hàng trên 1.200.000đ</p>
+            </div>
+            <div class="footer1">
+                <img src="https://cdn-icons-png.flaticon.com/128/861/861180.png" alt="70" width="70">
+                <p><b>7 NGÀY ĐỔI TRẢ, KHÔNG LÝ DO</b></p>
+                <p>Nếu sản phẩm không vừa ý, bạn có thể đổi trả trong vòng 07 ngày.</p>
+            </div>
+            <div class="footer1">
+                <img src="https://cdn-icons-png.flaticon.com/128/2896/2896733.png" alt="70" width="70">
+                <p><b>MIỄN PHÍ ĐỔI TRẢ HÀNG</b></p>
+                <p>Miễn phí vận chuyển 2 chiều khi đổi sản trả sản phẩm.</p>
+            </div>
+            <div class="footer1">
+                <img src="https://cdn-icons-png.flaticon.com/128/969/969088.png" alt="70" width="70">
+                <p><b>TỰ HÀO SẢN XUẤT TẠI VIỆT NAM</b></p>
+                <p>Thương hiệu được thiết kế và sản xuất bởi người trẻ nước Việt.</p>
+            </div>
+        </div>
+        <div class="footer-row">
+            <div class="footer-row1">
+                <p style="color: aliceblue;"><b>THƯƠNG HIỆU</b></p>
+                <p style="color: aliceblue;">Về chúng tôi</p>
+                <p style="color: aliceblue;">Chương trình Membership</p>
+                <p style="color: aliceblue;">Chương trình trồng cây TOBI & GreenWalker</p>
+            </div>
+            <div class="footer-row1">
+                <p style="color: aliceblue;"><b>CHÍNH SÁCH</b></p>
+                <p style="color: aliceblue;">Hình thức thanh toán</p>
+                <p style="color: aliceblue;">Chính sách giao hàngp</p>
+                <p style="color: aliceblue;">Chính sách đổi trả</p>
+            </div>
+            <div class="footer-row1">
+                <p style="color: aliceblue;"><b>CỬA HÀNG</b></p>
+                <p style="color: aliceblue;"><b>Hồ Chí Minh: </b>37 Trần Quang Diệu, Phường 14, Quận 3.</p>
+                <p style="color: aliceblue;"><b>Đà Nẵng:</b> 366 Phan Châu Trinh, Hải Châu.
+                <p style="color: aliceblue;"><b>Hotline: </b>+84 889 011 553</p>
+                <input type="text" placeholder="Enter your email">
+                <br>
+                <img scr="https://cdn-icons-png.flaticon.com/128/1384/1384015.png">
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
